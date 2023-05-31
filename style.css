@@ -1,0 +1,248 @@
+html, body {
+    background-color: rgb(248,252,255);
+}
+div{
+    display: block;
+}
+.layout {
+    overflow: hidden;
+    width: 76%;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.top_block {
+    width: 100%;
+    height: 30%;
+    align-self: center;   
+}
+
+.main {
+    width: 90%;
+    height: 70%;
+    align-self: center;
+    margin: 10px 10px 10px 10px;
+}
+
+.line1{
+    height: 40%;
+    display: flex;
+    max-height: 140px;    
+}
+
+.line2{
+    height: 60%;
+    background-color:rgb(241,241,241);
+    display: flex;
+    justify-content: center;
+    
+}
+
+.left_col{
+    width: 15%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    
+    
+}
+.center_col{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 0px 30px
+    
+}
+.right_col{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.avatar {
+    background-color: rgb(248,252,255);
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+}
+
+.table_block
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.table_info {
+    width: 100%;
+    border-collapse: collapse;
+    border-style: hidden;
+}
+td {
+    border-right: 2px solid #eeeeef;
+}
+.table_left_column
+{
+    text-align: left;
+}
+.table_followers_column, .table_following_column
+{
+    text-align: center; 
+}
+
+.follow_button {
+    color: black;
+    background-color: rgb(255,255,255);
+    border: 2px solid rgb(241,241,241);
+    border-radius: .200rem;
+    padding: 10px 20px;
+}
+.text_group_block
+{
+    height: 60%;  
+}
+.buttons_group_block
+{
+    height: 40%;
+    display: flex;
+    align-items: center;
+}
+.profile_button
+{
+    color: black;
+    border: none;
+    background-color: rgb(255,255,255);
+    border-color: gray;
+    border-radius:  .200rem .200rem 0 0; 
+    padding: 10px 25px;
+    margin: 5px 5px;
+}
+.bio_button
+{
+    color: rgb(51,122,183);
+    border: none;
+    background-color: rgb(225,225,225);
+    border-radius: .200rem .200rem 0 0;
+    padding: 10px 20px;
+    margin: 5px 5px;
+}
+.edit_button
+{
+    color: rgb(51,122,183);
+    border: none;
+    background-color: rgb(225,225,225);
+    border-radius:  .200rem .200rem 0 0;
+    padding: 10px 30px;
+    margin: 5px 5px;
+}
+.post
+{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: stretch;
+    margin: 10px;
+}
+.post_button_back
+{
+    height: 40%;
+    display: flex;
+    background-color:rgb(241,241,241);
+    justify-content: flex-end;
+    align-items: center;
+    padding: 10px;
+    
+}
+.post_button
+{
+    color: white;
+    border: none;
+    background-color: rgb(51,122,183);
+    border-radius:  .200rem; 
+    align-self: flex-end;
+    
+    align-self: center;
+    padding: 6px 20px;
+}
+.input_text
+{
+    height: 60%;
+    min-height: 70px;
+    
+}
+.comments_block
+{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.main_comment_block
+{
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+.reply_comment_block
+{
+    width: 85%;
+    height: 25%;
+    display: flex;
+    align-self: flex-end;
+}
+
+.load_more_block
+{
+    width: 85%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+}
+.load_more_button {
+    color: black;
+    background-color: rgb(255,255,255);
+    border: 2px solid rgb(241,241,241);
+    border-radius: .200rem;
+    padding: 10px 30px;
+    align-self: center;
+}
+.avatar_column
+{
+    width: 15%;
+    display: flex;
+}
+.avatar_comment
+{
+    background-color: rgb(248,252,255);
+    border: 2px solid rgb(238,242,245);
+    border-radius: 50%;
+    width: 30%;
+    height: auto;
+    margin: auto;
+}
+.text_comment_column{
+    width: 85%;
+
+}
+.text_comment{
+    font-size:13px;
+}
+.links_main_comment{
+    
+}

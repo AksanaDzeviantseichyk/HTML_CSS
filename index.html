@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Task 12(HTML/CSS)</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="layout">
+
+    <div class="top_block">
+        <div class = "line1">
+            <div class = "left_col">
+                <img class="avatar" src="images/avatar7.png">
+            </div>
+            <div class = "center_col">
+                <div class="table_block">
+                    <table class="table_info">
+                        <tr>
+                            <td class="table_left_column">
+                                <span style ="color:rgb(51,122,183);">Ivan Ivanov </span>
+                                <span style = "color:green;">●</span>
+                            </td>
+                            <td class="table_followers_column">
+                                <span>643</span>
+                            </td>
+                            <td class="table_following_column">
+                                <span>108</span>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td class="table_left_column">
+                                <span style = "color:gray; font-size: 14px;">Co-Founder at Google</span>
+                            </td>
+                            <td class="table_followers_column">
+                                <span style = "color:gray; font-size: 14px;">followers</span>
+                            </td>
+                            <td class="table_following_column">
+                                <span style = "color:gray; font-size: 14px;">following</span>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class = "right_col">
+                <button class="follow_button">Follow</button>
+            </div>
+        </div>
+        <div class = "line2">
+            <div class = "left_col"></div>
+            <div class = "center_col">
+                <div class="text_group_block">
+                    <p style = "color:gray;">Team International</p>
+                    <p style = "color:gray;">Works as <span style = "color:red;">QA Automation Engineer</span></p>
+                    <p style = "color:gray;">16 October</p>
+                </div>
+                <div class="buttons_group_block">
+                    <button class="profile_button">Profile</button>
+                    <button class="bio_button">Bio</button>
+                    <button class="edit_button">Edit Profile</button>
+                </div>
+            </div>
+            <div class = "right_col"></div>
+        </div>
+    </div>
+    
+    <div class="main">
+        <div class ="post">
+            <textarea class="input_text" placeholder="What's on your mind?"></textarea>
+            <div class="post_button_back"><input class = "post_button" type="button" value="Post"></div>
+        </div>
+        <div class="comments_block">
+            <div class="main_comment_block">
+                <div class="avatar_column">
+                    <img class="avatar_comment" src="images/avatar7.png">
+                </div>
+                <div class="text_comment_column">
+                    <p>Ivan Ivanov <span style = "color:gray;">posted a status update</span><br><span class="text_comment" style = "color:gray;">3 hours ago</span></p>
+                    
+                    <p class="text_comment">I’m hopeful that the world can come together to end this pandemic and prevent the next one. Thanks Dax Shepard. Monica Padman. and David Farrier for the great conversation.</p>
+                    <div class="links_main_comment">
+                        <a href="">Liked (8)</a>
+                        <a href="">Comment (12)</a>
+                    </div>
+                </div>
+            </div>
+            <div class="reply_comment_block">
+                <div class="avatar_column">
+                    <img class="avatar_comment" src="images/reply_avatar1.png">
+                </div>
+                <div class="text_comment_column">
+                    <p class="text_comment"><b style="color:rgb(51,122,183)">Petr Petrov </b>Congrats Andy and Team Amazon! What if Amazon created an entirely new consumer moment/day around celebrating and promoting sustainable merchants, ultimately creating a flywheel movement around conscious consumption called Pledge Day?</p>
+                    <div class="links">
+                        <a href="">Liked (8)</a>
+                        <a href="">Comment (12)</a>
+                    </div>
+                </div>
+            </div>
+            <div class="reply_comment_block">
+                <div class="avatar_column">
+                    <img class="avatar_comment" src="images/reply_avatar2.png">
+                </div>
+                <div class="text_comment_column">
+                    <p class="text_comment"><b style="color:rgb(51,122,183)">John Smith </b>lmportant milestone for The Climate Pledge - 300+ companies have now joined Amazon in committing to reach net-zero carbon emissions by 2040. Innovation and collaboration are key to solving big global challenges...encouraging to have these companies on board.</p>
+                </div>
+            </div>
+            <div class="load_more_block">
+                <button class="load_more_button">Load More...</button>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
