@@ -2,7 +2,7 @@
 
 Roll up a page as close as possible to a page shows below.
 
-![Header](https://github.com/AksanaDzeviantseichyk/HTML_CSS/tree/main/assets/Task.png)
+![Header](https://github.com/AksanaDzeviantseichyk/HTML_CSS/raw/main/assets/Task.png)
 
 You can use the resources with the backup Web page example.
 
